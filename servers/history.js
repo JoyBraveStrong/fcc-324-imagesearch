@@ -27,7 +27,9 @@ var mongoOptions = {
   }
 };
 
-mongoose.connect(M_URL, mongoOptions);
+// mongoose.connect(M_URL, mongoOptions);
+
+mongoose.connect(M_URL);
 
 mongoose.connection.on('error', err => console.log(err));
 
