@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Image Search Abstraction Layer</title>
+		<link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+		<style media="screen">
+			body {
+				padding-top: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="header">FCC - Image Search Abstraction Layer</h1>
+			<div class="jumbotron">
+				<h2>User Stories: </h2>
+				<ol>
+					<li>Get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+					<li>Paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+					<li>Get a list of the most recently submitted search strings.</li>
+				</ol>
+			</div>
+			<div class="jumbotron">
+				<h3>Example usage:</h3>
+        		Search for 'funny cat' and skip the first 10 results:<br>
+        		<pre>https://fcc-324-imagesearch.herokuapp.com/search/funny%20cat?offset=10</pre>
+				<pre>https://fcc-324-imagesearch.herokuapp.com/search/apple</pre>
+        		Display the most recent searches: <br>
+        		<pre>https://fcc-324-imagesearch.herokuapp.com/latest</pre>
+			</div>
+		</div>
+	</body>
+</html>
