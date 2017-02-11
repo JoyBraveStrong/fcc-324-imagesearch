@@ -2,9 +2,11 @@ const mongoose = require("mongoose");
 
 const moment = require("moment");
 
-const config = require("../config");
+// const config = require("../config");
 
-const M_URL = process.env.MONGOLAB_URI || config.M_URL;
+// const M_URL = process.env.MONGOLAB_URI || config.M_URL;
+
+const M_URL = process.env.MONGOLAB_URI
 
 mongoose.Promise = global.Promise;
 
