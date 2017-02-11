@@ -2,9 +2,11 @@ const request = require("request");
 
 const saveRequest = require("./history").save;
 
-const config = require("../config");
+// const config = require("../config");
 
-const clientID = process.env.CLIENT_ID || config.CLIENT_ID;
+// const clientID = process.env.CLIENT_ID || config.CLIENT_ID;
+
+const clientID = process.env.CLIENT_ID
 
 exports.getImage = function(search, page = 1) {
 
