@@ -14,7 +14,7 @@ mongoose.Promise = global.Promise;
  * ----------------------------------------------------------------------------
  * Mongoose by default sets the auto_reconnect option to true.
  * We recommend setting socket options at both the server and replica set level.
- * We recommend a 300 second connection timeout because it allows for
+ * We recommend a 30 second connection timeout because it allows for
  * plenty of time in most operating environments.
  =============================================================================*/
 
