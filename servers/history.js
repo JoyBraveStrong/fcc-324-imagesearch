@@ -6,7 +6,7 @@ const moment = require("moment");
 
 // const M_URL = process.env.MONGOLAB_URI || config.M_URL;
 
-const M_URL = process.env.MONGOLAB_URI
+const M_URL = process.env.M_URL
 
 mongoose.Promise = global.Promise;
 
